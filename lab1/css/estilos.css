@@ -1,0 +1,45 @@
+header{
+    background-color: black;    /*Color de fonfo*/
+    color: white;       /*Color del texto*/
+    padding: 2em;       /* es el espacio interno */
+}
+h1{
+    color: orange;
+    font-family: Julee;
+    font-size: 3em;/*tamaño*/
+    margin: 0px;
+    
+}
+h4{
+    margin: 0px;
+    
+}
+.Detalle,h2,p{
+    font-size: 1.4em;
+    line-height: 28px;
+}
+
+button{
+    border-radius: 50px;
+    font-size: 1.2em;
+    height: 3em;
+    width: 250px;
+    background: red;
+}
+
+button:hover{
+    background-color: white;
+}
+li{
+    display: inline-block; /*linea recta*/
+    padding: 6px;
+}
+a{
+    font-size: 1.3em;
+    text-decoration: none;/*para quitar subrayado*/
+}
+nav{
+    background-color: yellowgreen;
+    padding: 5px; /*el grosor del nav */
+    text-align: right;/*para la posicion de las listas*/
+}

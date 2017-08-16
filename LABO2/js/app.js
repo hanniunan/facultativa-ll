@@ -7,7 +7,7 @@ var  divide =document.getElementById("division");//boton de suma - evento click
 var  resul =document.getElementById("resul");
 var resultado;
 
-suma.addEventListener("click",sumar);ç
+suma.addEventListener("click",sumar);
 resta.addEventListener("click",restar);
 multiplica.addEventListener("click",multiplicar);
 
@@ -25,7 +25,7 @@ function sumar (){
 
     
 function restar (){
-    resultado =Number(dato1.value)- Number(dato2.value); 
+    resultado =Number(dato1.value) - Number(dato2.value); 
     resul.innerHTML=  resultado;
     dato1.value = "";
     dato2.value = "";

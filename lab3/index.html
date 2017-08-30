@@ -99,23 +99,175 @@
     <p class='light'>Utilizamos Githuh para el despliegue del sitio web con una direccion que podemos compartir.</p>
   </div>
 </article>
+
+
+</section>
+
  <!--segunda section -->
 
+  <section class="row"> 
+               <h2 class="center-align">Contactos</h2>
+               <p class="center-align blue-text">Envienos sus comentarios</p>
+               <article class="col s12 m6 l6">
+                 <h5 class="center-align">Rellene los campos</h5>
+                 <hr> 
+                 <form action="">
+                   <div class="input-field col s12 ">
+                     <i class="material-icons prefix blue-text">account_circle</i>
+                     <input type="text" id="icon_prefix" class="validate">
+                     <label for="first_name">Nombre Completo</label>
+                   </div>
+                   
+                   <div class="input-field col s12 ">
+                     <i class="material-icons prefix green-text">contact_mail</i>
+                     <input type="email" id="icon_prefix" class="validate">
+                     <label for="email" data-error="wrong" data-success="right">Correo Electronico</label>
+                   </div>
+
+                   <div class="input-field col s12 ">
+                     <i class="material-icons prefix orange-text">chat</i>
+                     <textarea id="icon_prefix" class="materialize-textarea"></textarea>
+                     <label for="textarea1">Comentario</label>
+                   </div>
+
+                   <button class="btn waves-effect waves-light green" type="submit" name="action">Enviar
+                     <i class="material-icons right">send</i>
+                   </button>
+
+                 </form>
+
+               </article>
+                
 
 
-  </section>
+ <!--columna con la informacion extra-->
+<article class="col s12 m6 l6">
+  <h5 class="center-align">Información</h5>
+                 <ul> 
+                 <li> Dirección</li><p class="blue-text">Del cementerio central de juigalpa  cuadra y media al norte</p>
+                 
+                 <li>Correo Electronico</li><p class="green-text">zambranahannita@gmail.com</p>
+                 <li>Telefono</li><p class="orange-text">(505) 86574312</p><p class="orange-text">(505) 25129056</p>
+                 </ul>
 
+               </article>
+            
+             </section>
+
+     <!--parallax-->
+   <div  class="parallax-container">
+   <div  class="parallax"><img  src="img/galaxia.jpg"> </div>
+  </div>
+
+
+  
+    <section class="row">
+
+   <!--seccion de noticias-->
+    <h2 class=center-align>"Noticias</h2>
+    <p class="center-align blue-text">ven y descubre lo nuevo en tecnologia"</p>
+
+  <article class="col a12 m3 l3">
+ <div class="card">
+                   <div class="card-image">
+                     <img src="img/imagen1.jpg" alt=""/>
+                     <span class="card-title"></span>
+                   </div>
+                   <div class="card-content">
+                     <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+                   </div>
+                   <div class="card-action">
+                     <a href="#">Ir a noticia 1</a>
+                   </div>
+                 </div>
+
+  ></article>
+
+
+
+  
+  <article class="col a12 m3 l3">
+    <!--mz-card-->
+                 <div class="card">
+                   <div class="card-image">
+                     <img src="img/imagen2.jpg" alt=""/>
+                     <span class="card-title"></span>
+                   </div>
+                   <div class="card-content">
+                     <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+                   </div>
+                   <div class="card-action">
+                     <a href="#">Ir a noticia 2</a>
+                   </div>
+                 </div>
+
+  </article>
+
+
+
+  <article class="col a12 m3 l3">
+
+<div class="card">
+                   <div class="card-image">
+                     <img src="img/imagen3.jpg" alt=""/>
+                     <span class="card-title"></span>
+                   </div>
+                   <div class="card-content">
+                     <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+                   </div>
+                   <div class="card-action">
+                     <a href="#">Ir a noticia 3</a>
+                   </div>
+                 </div>
+
+  </article>
+
+
+
+
+  <article  class="col a12 m3 l3">
+            <div class="card">
+                   <div class="card-image">
+                     <img src="img/imagen4.jpg" alt=""/>
+                     <span class="card-title"></span>
+                   </div>
+                   <div class="card-content">
+                     <p>I am a very simple card. I am good at containing small bits of information.I am convenient because I require little markup to use effectively.</p>
+                   </div>
+                   <div class="card-action">
+                     <a href="#">Ir a noticia 4</a>
+          
+
+         </div>
+       </div>
+
+  </article>
+
+
+
+</section>
   </main>
+<!--pie de pagina mz-footer-->
+            <footer class=" black page-footer ">
+              
+              <div class="footer-copyright">
+                <div class="container">
+                  © 2017 Hanni Zambrana
+                  <a class="grey-text text-lighten-4 right" href="#!"></a>
+                </div>
+              </div>
+            </footer>
 
 
   <script src="js/jquery.min.js"></script>
   <script src="js/materialize.min.js"></script>
 
   <script>
-    $( document ).ready(function(){
+   $( document ).ready(function(){ //iniciarlizar las siguientes librerias
       $(".button-collapse").sideNav();
       $(".dropdown-button").dropdown();
-       $(`.slider`).slider({height:250});
+      $('.slider').slider({height:250});
+      $('.parallax').parallax();
     })
   </script>
 </body>

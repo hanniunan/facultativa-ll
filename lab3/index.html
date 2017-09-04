@@ -19,22 +19,22 @@
       <a href="#" class="brand-logo">Hanni</a>
       <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servivios</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Noticias</a></li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servivios</a></li>
+        <li><a href="#contactos">Contacto</a></li>
+        <li><a href="#noticias">Noticias</a></li>
       </ul>
       <ul class="side-nav" id="mobile-menu">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servivios</a></li>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Noticias</a></li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servivios</a></li>
+        <li><a href="#contactos">Contacto</a></li>
+        <li><a href="#noticias">Noticias</a></li>
       </ul>
     </div>
   </nav>
 </div>
   
-<div class="slider">
+<div class="slider menu" id="inicio">
   <ul class="slides">
     <li>
       <img src="img/imagen1.jpg" alt=""> <!-- random image -->
@@ -71,7 +71,7 @@
 <main>
   <!--seccion de servicios -->
 
-  <section class="row">   <!--el row para agregar las columnas  -->
+  <section class="row" id="servicios">   <!--el row para agregar las columnas  -->
 <h2 class="center-align">Servicios</h2>
 <p class="center-align pink-text">Estos son nuestros servicios para usted</p>
     <!--PRIMER ARTICILO UNA COLUMNA -->
@@ -103,9 +103,9 @@
 
 </section>
 
- <!--segunda section -->
+ <!--segunda section de  contactos -->
 
-  <section class="row"> 
+  <section class="row menu" id="contactos"> 
                <h2 class="center-align">Contactos</h2>
                <p class="center-align blue-text">Envienos sus comentarios</p>
                <article class="col s12 m6 l6">
@@ -160,10 +160,8 @@
   </div>
 
 
-  
-    <section class="row">
-
-   <!--seccion de noticias-->
+  <!--seccion de noticias-->
+    <section class="row menu" id="noticias">
     <h2 class=center-align>"Noticias</h2>
     <p class="center-align blue-text">ven y descubre lo nuevo en tecnologia"</p>
 
@@ -268,6 +266,7 @@
       $(".dropdown-button").dropdown();
       $('.slider').slider({height:250});
       $('.parallax').parallax();
+       $('.menu').scrollspy();
     })
   </script>
 </body>

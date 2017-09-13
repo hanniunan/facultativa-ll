@@ -1,0 +1,139 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/icon.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+nav{
+
+  background:gray;
+  }
+
+nav ul a{ 
+
+   
+      font-family: Julee;
+      color:black ;
+  
+}
+    
+
+header{
+    background-color: black;    /*Color de fonfo*/
+    color: white;       /*Color del texto*/
+    padding: 2em;       /* es el espacio interno */
+    height: 190px;
+  border: 1px solid #999;
+  
+}
+
+header button{
+ background-color:blue;
+}
+
+
+
+h1{
+    color: orange;
+    font-family: Julee;
+    font-size: 3em;/*tamaño*/
+    margin: 0px;
+   
+ }
+
+h5{
+ margin: 0px;
+ color: orange;
+text-align: center;
+
+}
+ header h6{
+    margin: 0px;
+    text-align: center;
+
+ 
+}
+
+h7{
+    margin: 0px;
+     color: orange;
+     text-align: left;
+    
+      
+}
+         
+header h7  i  {
+  color: white;
+}
+
+
+
+
+
+  nav  h6{
+  color: blue;
+
+  }
+
+  nav  h7{
+  color: red ;
+
+  }
+
+  nav   {
+       font-family: Julee;
+       color:black ;
+       
+     
+       
+      
+  }
+
+  article{
+    text-align: center;
+    
+  }
+
+
+   .parallax-container{
+ height: 550px;
+}
+
+footer div  {
+
+  height:500px;
+  text-align: left;
+  color: black;
+
+}
+
+header img{
+  text-align: center;
+}
+
+
+main .material-icons{
+text-align: center;
+color: blue ;
+
+}
+
+
+

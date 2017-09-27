@@ -41,5 +41,5 @@ a{
 nav{
     background-color: yellowgreen;
     padding: 5px; /*el grosor del nav */
-    text-align: right;/*para la posicion de las listas*/
+    text-align: left;/*para la posicion de las listas*/
 }
